@@ -121,14 +121,6 @@ img {
   color: #404bbf;
 }
 
-
-.title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07143;
-  letter-spacing: 0.02em;
-}
-
 .title-section-hidden {
   position: absolute;
   width: 1px;
@@ -191,7 +183,6 @@ img {
   align-items: center;
   padding: 188px 0px;
   background: #2e2f42;
-  gap: 48px;
 }
 
 .section-team {
@@ -249,6 +240,7 @@ img {
   text-align: center;
   color: #fff;
   max-width: 496px;
+  margin: 0 auto 48px;
 }
 
 .our-team {
@@ -281,7 +273,8 @@ img {
 }
 
 .section-team .container,
-.section-portfolio .container {
+.section-portfolio .container,
+.section-order .container {
   display: block;
   justify-content: space-between;
   width: 1158px;
